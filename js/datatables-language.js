@@ -1,16 +1,15 @@
-// metodo-01-cmd
+/* 01 - CMD */
 /*
 $(document).ready(function() {
     $('#example').DataTable({ 
         "language": {
             "url": "https://cdn.datatables.net/plug-ins/1.10.20/i18n/Spanish.json"
         }
-        
         });
 });
 */
 
- // metodo-02-local
+/* 02 - LOCAL  */
 $(document).ready(function() {
     $('#datatable-spanish').DataTable({
         "aLengthMenu": [5, 10, 25, 50, 100],
